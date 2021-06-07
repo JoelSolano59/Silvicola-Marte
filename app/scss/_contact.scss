@@ -1,0 +1,18 @@
+.contact {
+  background-image: url("/images/map-image.png");
+  min-height: 100%;
+  background-color: $lightGray;
+  text-align: center;
+
+  @include breakpoint-up(medium) {
+    text-align: left;
+  }
+
+  &__intro {
+    margin-bottom: 3.75rem;
+
+    @include breakpoint-up(large) {
+      width: 60%;
+    }
+  }
+}
