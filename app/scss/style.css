@@ -362,8 +362,8 @@ button:hover::before, .button:hover::before {
   --crsl-bg: transparent;
   --box-bg: transparent;
   --box-shadow: #0000001c;
-  --box-shadow-border: #0000000f;
-  --box-border: $black;
+  --box-shadow-border: #8f8c8c0f;
+  --box-border: $white;
 }
 
 .carousel {
@@ -372,6 +372,7 @@ button:hover::before, .button:hover::before {
   width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  color: white;
 }
 
 .carousel__prev, .carousel__next {

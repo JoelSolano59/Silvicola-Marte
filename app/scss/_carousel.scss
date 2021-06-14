@@ -2,8 +2,8 @@
   --crsl-bg: transparent;
   --box-bg: transparent;
   --box-shadow: #0000001c;
-  --box-shadow-border: #0000000f;
-  --box-border: $black;
+  --box-shadow-border: #8f8c8c0f;
+  --box-border: $white;
 }
 
 .carousel {
@@ -11,7 +11,7 @@
   display: block;
   width: 100%;
   box-sizing: border-box;
-
+  color: white;
   &__prev,
   &__next {
     position: absolute;
@@ -147,11 +147,6 @@
           }
         }
       }
-
-      // &__item--active {
-      //   .item__3d-frame {
-      //   }
-      // }
     }
   }
 }
