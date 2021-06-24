@@ -1,6 +1,10 @@
 .header {
-  position: relative;
+  // position: relative;
+  background-color: $white;
   z-index: 1;
+  position: relative;
+  top: 0px;
+  width: 100%;
   // Hamburger Open Styles
   &.open {
     .header__toggle {
