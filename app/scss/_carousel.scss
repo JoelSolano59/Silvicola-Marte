@@ -3,7 +3,7 @@
   --box-bg: transparent;
   --box-shadow: #0000001c;
   --box-shadow-border: #8f8c8c0f;
-  --box-border: $white;
+  --box-border: $whiteGreen;
 }
 
 .carousel {
@@ -11,7 +11,8 @@
   display: block;
   width: 100%;
   box-sizing: border-box;
-  color: white;
+  color: $whiteGreen;
+
   &__prev,
   &__next {
     position: absolute;
@@ -66,6 +67,8 @@
     width: 100%;
     padding: 20px 0 50px 0;
     overflow: hidden;
+    background-color: $whiteGreen;
+    position: sticky;
 
     .carousel__slider {
       z-index: -1;

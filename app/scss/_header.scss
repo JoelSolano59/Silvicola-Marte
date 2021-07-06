@@ -1,6 +1,6 @@
 .header {
   // position: relative;
-  background-color: $white;
+  background-color: $whiteGreen;
   z-index: 1;
   position: relative;
   top: 0px;
@@ -34,7 +34,7 @@
 
   nav {
     position: relative;
-    background-color: $white;
+    background-color: $whiteGreen;
     padding-top: 1.0625rem;
     padding-bottom: 1.0625rem;
   }
@@ -114,7 +114,7 @@
       }
 
       &:hover {
-        color: $darkGray;
+        color: $darkGreen;
 
         &::before {
           opacity: 1;

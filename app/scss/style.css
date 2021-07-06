@@ -90,7 +90,7 @@ body {
   font-family: "Public Sans", sans-serif;
   font-size: 1.125rem;
   font-weight: 300;
-  color: #9698a6;
+  color: #565671;
   line-height: 1.3;
   overflow-x: hidden;
 }
@@ -238,7 +238,7 @@ button:hover::before, .button:hover::before {
 }
 
 .header {
-  background-color: white;
+  background-color: #f2fce8;
   z-index: 1;
   position: relative;
   top: 0px;
@@ -272,7 +272,7 @@ button:hover::before, .button:hover::before {
 
 .header nav {
   position: relative;
-  background-color: white;
+  background-color: #f2fce8;
   padding-top: 1.0625rem;
   padding-bottom: 1.0625rem;
 }
@@ -330,7 +330,7 @@ button:hover::before, .button:hover::before {
 .header__links a {
   position: relative;
   font-size: 0.875rem;
-  color: #9698a6;
+  color: #565671;
   -webkit-transition: color 300ms ease-in-out;
   transition: color 300ms ease-in-out;
 }
@@ -355,7 +355,7 @@ button:hover::before, .button:hover::before {
 }
 
 .header__links a:hover {
-  color: #212121;
+  color: #2a5e08;
 }
 
 .header__links a:hover::before {
@@ -367,7 +367,7 @@ button:hover::before, .button:hover::before {
   --box-bg: transparent;
   --box-shadow: #0000001c;
   --box-shadow-border: #8f8c8c0f;
-  --box-border: $white;
+  --box-border: $whiteGreen;
 }
 
 .carousel {
@@ -376,7 +376,7 @@ button:hover::before, .button:hover::before {
   width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  color: white;
+  color: #f2fce8;
 }
 
 .carousel__prev, .carousel__next {
@@ -443,6 +443,9 @@ button:hover::before, .button:hover::before {
   width: 100%;
   padding: 20px 0 50px 0;
   overflow: hidden;
+  background-color: #f2fce8;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 .carousel__body .carousel__slider {
@@ -546,6 +549,22 @@ button:hover::before, .button:hover::before {
           transform-origin: 100%;
 }
 
+#slideshow {
+  margin: 80px auto;
+  position: relative;
+  width: 100%;
+  height: 40rem;
+  display: inline-block;
+}
+
+#slideshow > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
 .feature {
   background-color: #f3f4f6;
   text-align: center;
@@ -641,7 +660,7 @@ button:hover::before, .button:hover::before {
   width: 100%;
   height: 100%;
   max-width: 100%;
-  max-height: 30rem;
+  max-height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -701,7 +720,7 @@ button:hover::before, .button:hover::before {
 }
 
 .p-5 {
-  padding: 3rem !important;
+  padding: 5rem !important;
 }
 
 @media (min-width: 992px) {
@@ -709,6 +728,10 @@ button:hover::before, .button:hover::before {
     -ms-flex-order: 2;
     -webkit-box-ordinal-group: 3;
             order: 2;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+            flex: 0 0 40%;
+    max-width: 40%;
   }
 }
 
@@ -716,8 +739,8 @@ button:hover::before, .button:hover::before {
   .col-lg-6 {
     -ms-flex: 0 0 50%;
     -webkit-box-flex: 0;
-            flex: 0 0 50%;
-    max-width: 50%;
+            flex: 0 0 60%;
+    max-width: 60%;
   }
 }
 
@@ -771,7 +794,7 @@ button:hover::before, .button:hover::before {
 
 .article__text {
   padding: 1.875rem 1.875rem 2.5rem 1.875rem;
-  color: #9698a6;
+  color: #565671;
 }
 
 @media (min-width: 40em) {
@@ -961,7 +984,7 @@ button:hover::before, .button:hover::before {
 
 .footer__copyright {
   font-size: 0.8125rem;
-  color: #9698a6;
+  color: #bfbfbf;
 }
 
 @media (min-width: 64em) {
