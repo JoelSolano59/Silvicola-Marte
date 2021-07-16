@@ -15,38 +15,17 @@
   }
 }
 
-// .bg-img1{
-//   background-image: url("/images/—Pngtree—towering evergreen pine trees_4407926.png"); /* The image used */
-//   background-color: $white; /* Used if the image is unavailable */
-//   height: 500px;
-//   max-width:100%;
-//   max-height:30rem;
-//   background-position: center; /* Center the image */
-//   background-repeat: no-repeat; /* Do not repeat the image */
-//   background-size: cover; /* Resize the background image to cover the entire container */
-// }
+.test {
+  display: inline-block;
+  position: relative;
+}
 
-// .bg-img2{
-//   background-image: url("/images/—Pngtree—upright pine tree on the_4407693.png"); /* The image used */
-//   background-color: $white; /* Used if the image is unavailable */
-//   height: 500px;
-//   max-width:100%;
-//   max-height:30rem;
-//   background-position: center; /* Center the image */
-//   background-repeat: no-repeat; /* Do not repeat the image */
-//   background-size: cover; /* Resize the background image to cover the entire container */
-// }
-
-// .bg-img3{
-//   background-image: url("/images/—Pngtree—towering evergreen pine trees_4407915.png"); /* The image used */
-//   background-color: hsl(220, 16%, 96%); /* Used if the image is unavailable */
-//   height: 500px;
-//   max-width:100%;
-//   max-height:30rem;
-//   background-position: center; /* Center the image */
-//   background-repeat: no-repeat; /* Do not repeat the image */
-//   background-size: cover; /* Resize the background image to cover the entire container */
-// }
+.test:after {
+  content: '';
+  position: absolute;
+  top: 0; right: 0;
+  bottom: 0; left: 0;
+  background: -prefix-linear-gradient(left, white, $whiteGreen);}
 
 .align-items-center {
   -ms-flex-align: center !important;

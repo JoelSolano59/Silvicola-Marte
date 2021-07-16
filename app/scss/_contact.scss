@@ -15,6 +15,23 @@
     text-align: left;
   }
 
+  &__links {
+    @include breakpoint-up(large){
+      grid-area: cta;
+      text-align: right;
+      justify-self: end;
+    }
+    a.button {
+      @include breakpoint-down(medium){
+        margin-bottom: 1.875rem; 
+      }
+
+      &:not(:last-child) {
+        margin-right: 100px;
+      }
+    }
+  }
+
   &__intro {
     color: $white;
     margin-bottom: 3.75rem;

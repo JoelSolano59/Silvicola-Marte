@@ -10,7 +10,8 @@
     <!-- Font Awsome -->
     <script src="https://kit.fontawesome.com/3933024008.js" crossorigin="anonymous"></script>
     <!-- Sweet Alert 2 -->
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9/dist/sweetalert2.all.min.js"></script>
+    <script src="/plugins/package/dist/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="/plugins/package/dist/sweetalert2.css">
   </head>
   <body>
     <!-- Header -->
@@ -33,7 +34,7 @@
           <a href="#productos">Productos</a>
           <a href="#contacto">Contacto</a>
         </div>
-        <a href="#" class="button header__cta hide-for-mobile"><i class="fas fa-globe"></i> Español</a>
+        <a onclick="openLenguage()" class="button header__cta hide-for-mobile"><i class="fas fa-globe"></i> Español</a>
       </nav>
       <div class="header__menu has-fade">
         <a href="#marte">Quiénes somos</a>
@@ -136,14 +137,14 @@
     </div>
     <!-- Sections -->
     <!-- Quiénes somos -->
-    <section id="marte" style="background-color: hsl(220, 16%, 96%)">
+    <section id="marte" style="background-color:hsl(91, 78%, 95%)">
       <div class="row align-items-center">
         <div class="col-lg-6 order-lg-1 hide-for-mobile">
           <div id="slideshow">
-            <div class="gradient-overlay-right">
+            <div class="test gradient-overlay-right">
               <img loading="lazy" class="lazy" data-src="./images/Qui1.jpg" alt="">
             </div>
-            <div>
+            <div class="test">
               <img loading="lazy" class="lazy" data-src="./images/Qui2.jpg" alt="">
             </div>
           </div>
@@ -158,7 +159,7 @@
         </div>
       </div>
     </section>
-    <section style="background-color: hsl(220, 16%, 96%)">
+    <section style="background-color: hsl(91, 78%, 95%)">
       <div class="row align-items-center">
         <div class="col-lg-6 order-lg-1 hide-for-mobile">
           <div id="slideshow1">
@@ -172,7 +173,7 @@
         </div>
         <div class="order-lg-2">
           <div class="p-5">
-            <h2 class="display-4" style="color:hsl(97, 46%, 44%)">Lo que hacemos</h2>
+            <h2 class="display-4" style="color:hsl(96, 84%, 20%)">Lo que hacemos</h2>
             <h2 class="display-4">
               Durante estas tres últimas décadas PSM ha participado en diversas iniciativas encaminadas al mejor manejo del recurso natural junto con otros productores forestales, y de manera individual a través de la certificación internacional de sus actividades. De igual manera, mantiene un acercamiento constante y una buena vecindad con la comunidad que le rodea. 
             </h2>
@@ -180,7 +181,7 @@
         </div>
       </div>
     </section>
-    <section style="background-color: hsl(220, 16%, 96%)">
+    <section style="background-color: hsl(91, 78%, 95%)">
       <div class="row align-items-center">
         <div class="col-lg-6 order-lg-1 hide-for-mobile">
           <div id="slideshow2">
@@ -194,7 +195,7 @@
         </div>
         <div class="order-lg-2">
           <div class="p-5">
-            <h2 class="display-4" style="color:hsl(97, 46%, 44%)">Dónde estamos</h2>
+            <h2 class="display-4" style="color:hsl(96, 84%, 20%)">Dónde estamos</h2>
             <h2 class="display-4">
               Productora Silvícola Marte es una empresa que surgió en 1983, por la preocupación de darle mejor tratamiento al recurso forestal y que se ha robustecido a través de tres generaciones.
             </h2>
@@ -203,7 +204,7 @@
       </div>
     </section>
     <!-- Proposito -->
-    <section id="proposito" style="background-color: hsl(220, 16%, 96%)">
+    <section id="proposito" style="background-color: hsl(91, 78%, 95%)">
         <div class="row align-items-center">
           <div class="col-lg-6 order-lg-1 hide-for-mobile">
             <div id="slideshow3">
@@ -233,7 +234,7 @@
         </div>
     </section>
     <!-- Compromisos -->
-    <section id="compromisos" style="background-color: hsl(220, 16%, 96%)">
+    <section id="compromisos" style="background-color: hsl(91, 78%, 95%)">
       <div class="row align-items-center">
         <div class="col-lg-6 order-lg-1 hide-for-mobile">
           <div id="slideshow4">
@@ -259,7 +260,8 @@
         </div>
         <div class="order-lg-2">
           <div class="p-5">
-            <h2 class="display-4" style="color:hsl(97, 46%, 44%)">Con el medio ambiente</h2>
+            <h2 class="display-4" style="color:hsl(97, 46%, 44%)">Compromisos</h2>
+            <h2 class="display-4" style="color:hsl(96, 84%, 20%)">Con el medio ambiente</h2>
             <h2 class="display-4">
               Comprender el ecosistema existente, monitorear y balancear los ciclos naturales, productivos, industriales y económicos  del bosque para garantizar el adecuado equilibrio de flora y fauna.            
             </h2>
@@ -267,7 +269,7 @@
         </div>
       </div>
     </section>
-    <section style="background-color: hsl(220, 16%, 96%)">
+    <section style="background-color: hsl(91, 78%, 95%)">
       <div class="row align-items-center">
         <div class="col-lg-6 order-lg-1 hide-for-mobile">
           <div id="slideshow5">
@@ -290,7 +292,7 @@
         </div>
         <div class="order-lg-2">
           <div class="p-5">
-            <h2 class="display-4" style="color:hsl(97, 46%, 44%)">Con la comunidad</h2>
+            <h2 class="display-4" style="color:hsl(96, 84%, 20%)">Con la comunidad</h2>
             <h2 class="display-4">
               Comprender el ecosistema existente, monitorear y balancear los ciclos naturales, productivos, industriales y económicos  del bosque para garantizar el adecuado equilibrio de flora y fauna.            
             </h2>
@@ -298,7 +300,7 @@
         </div>
       </div>
     </section>
-    <section style="background-color: hsl(220, 16%, 96%)">
+    <section style="background-color: hsl(91, 78%, 95%)">
       <div class="row align-items-center">
         <div class="col-lg-6 order-lg-1 hide-for-mobile">
           <div id="slideshow6">
@@ -318,7 +320,7 @@
         </div>
         <div class="order-lg-2">
           <div class="p-5">
-            <h2 class="display-4" style="color:hsl(97, 46%, 44%)">Con otras partes interesadas</h2>
+            <h2 class="display-4" style="color:hsl(96, 84%, 20%)">Con otras partes interesadas</h2>
             <h2 class="display-4">
               Mantener un trato cercano y respetuoso con nuestros clientes, entendiendo sus intereses y buscando ajustarnos a sus necesidades.
               Procurar la comunicación cercana y transparente con nuestros accionistas sobre el manejo del bosque y administración del negocio.
@@ -329,7 +331,7 @@
       </div>
     </section>
     <!-- Certificacion -->
-    <section id="certificacion" style="background-color: hsl(220, 16%, 96%)">
+    <section id="certificacion" style="background-color: hsl(91, 78%, 95%)">
       <div class="row align-items-center">
         <div class="col-lg-6 order-lg-1 hide-for-mobile">
           <div id="slideshow7">
@@ -361,7 +363,29 @@
         </div>
     </section>
     <!-- Productos -->
-    <section id="productos" style="background-color: hsl(220, 16%, 96%)">
+    <!-- <section id="productos" style="background-color: hsl(91, 78%, 95%)">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-1 hide-for-mobile">
+          <div id="slideshow9">
+            <div class="gradient-overlay-right">
+              <img loading="lazy" class="lazy" data-src="./images/Qui1.jpg" alt="">
+            </div>
+            <div>
+              <img loading="lazy" class="lazy" data-src="./images/Qui2.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="order-lg-2">
+          <div class="p-5">
+            <h2 class="display-4" style="color:hsl(97, 46%, 44%)">Quiénes somos</h2>
+            <h2 class="display-4">
+              Custodiar el bosque incorporando las mejores prácticas, a través de trabajar y administrar los recursos naturales, preservando y renovando el ecosistema y proporcionado fuentes de empleo y beneficios a la comunidad.
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- <section id="productos" style="background-color: hsl(91, 78%, 95%)">
       <div class="row align-items-center">
         <div class="col-lg-6 order-lg-1 hide-for-mobile">
           <div id="slideshow8">
@@ -397,16 +421,21 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Contacto -->
-    <section id="contacto" class="contact">
-      <div class="contact__content container container--pall">
+    <!-- <section id="contacto" class="contact">
+      <class class="contact__content container container--pall">
         <div class="contact__intro">
           <h2 style="color: hsl(97, 46%, 44%)">Contacto</h2>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ab quos nisi nemo non mollitia obcaecati, hic sapiente vitae nesciunt explicabo ipsum dolorem laboriosam soluta. Consequuntur libero sequi eveniet tenetur.
-        </div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quod ad animi illo similique aliquam ipsum, libero eos esse asperiores eligendi qui impedit. Itaque, esse minus. Vel architecto eaque reiciendis.
+          
+              <a class="button" href="https://www.facebook.com/Silv%C3%ADcola-Marte-108107441486577"><i class="fab fa-facebook-square"></i> Facebook</a>
+              <a class="button" href="https://wa.me/1XXXXXXXXXX?text=Me%20interesa%20el%20auto%20que%20estás%20vendiendo"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+              <a class="button" href="mailto:elcorreoquequieres@correo.com?Subject=Aquí%20el%20asunto%20del%20mail"><i class="fas fa-envelope"></i> Correo</a>
+            
+        </class>
       </div>
-    </section>
+    </section> -->
     <!-- Footer --> 
     <footer class="footer">
       <div class="container">
@@ -414,7 +443,9 @@
           <img loading="lazy" class="lazy" data-src="./images/LOGO_MARTE_COLOR_HORIZONTAL-removebg.png" alt="Silvicola Marte" width="150" height="55"/>
         </a>
         <div class="footer__social">
-        <a href="http://"><i class="fab fa-facebook-square"></i></a>
+          <a href="https://www.facebook.com/Silv%C3%ADcola-Marte-108107441486577"><i class="fab fa-facebook-square"></i></a>
+          <a href="https://wa.me/1XXXXXXXXXX?text=Me%20interesa%20el%20auto%20que%20estás%20vendiendo"><i class="fab fa-whatsapp"></i></a>
+          <a href="mailto:elcorreoquequieres@correo.com?Subject=Aquí%20el%20asunto%20del%20mail"><i class="fas fa-envelope"></i></a>
         </div>
         <div class="footer__links col1">
           <a href="#marte">Quiénes somos</a>
@@ -427,7 +458,7 @@
           <a href="#contacto">Contacto</a>
         </div>
         <div class="footer__cta">
-          <a href="#" class="button"><i class="fas fa-globe"></i> Español</a>
+          <a onclick="openLenguage()" class="button"><i class="fas fa-globe"></i> Español</a>
         </div>
         <div class="footer__copyright">
           &copy; Productora Silvicola Marte. Todos los derechos reservados.
@@ -438,7 +469,9 @@
     <script src="/app/js/jquery.min.js"></script>
     <script src="/app/js/slideshow.js"></script>
     <script src="/app/js/lazy.js"></script>
+    <script src="/app/js/lenguage_button.js"></script>
     <script src="/app/js/hamburger.js"></script>
     <script src="/app/js/carousel.js"></script>
+    <script src="/app/js/contact_form.js"></script>
   </body>
 </html>

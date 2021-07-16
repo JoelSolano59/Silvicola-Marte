@@ -6,7 +6,7 @@ $("#slideshow4 > div:gt(0)").hide();
 $("#slideshow5 > div:gt(0)").hide();
 $("#slideshow6 > div:gt(0)").hide();
 $("#slideshow7 > div:gt(0)").hide();
-$("#slideshow8 > div:gt(0)").hide();
+$("#slideshow9 > div:gt(0)").hide();
 
 setInterval(function() {
   $('#slideshow > div:first')
@@ -81,10 +81,10 @@ setInterval(function() {
 }, 3000);
 
 setInterval(function() {
-  $('#slideshow8 > div:first')
+  $('#slideshow9 > div:first')
     .fadeOut(1000)
     .next()
     .fadeIn(1000)
     .end()
-    .appendTo('#slideshow8');
+    .appendTo('#slideshow9');
 }, 3000);
