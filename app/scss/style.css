@@ -612,6 +612,14 @@ button:hover::before, .button:hover::before {
   display: inline-block;
 }
 
+#slideshow9 {
+  margin: 80px auto;
+  position: relative;
+  width: 100%;
+  height: 40rem;
+  display: inline-block;
+}
+
 #slideshow > div {
   position: absolute;
   top: 10px;
@@ -669,6 +677,14 @@ button:hover::before, .button:hover::before {
 }
 
 #slideshow7 > div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+#slideshow9 > div {
   position: absolute;
   top: 10px;
   left: 10px;
@@ -774,6 +790,21 @@ button:hover::before, .button:hover::before {
   max-height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.test {
+  display: inline-block;
+  position: relative;
+}
+
+.test:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: -prefix-linear-gradient(left, white, #f2fce8);
 }
 
 .align-items-center {
@@ -899,6 +930,25 @@ button:hover::before, .button:hover::before {
   .contact {
     text-align: left;
   }
+}
+
+@media (min-width: 64em) {
+  .contact__links {
+    grid-area: cta;
+    text-align: right;
+    -ms-grid-column-align: end;
+        justify-self: end;
+  }
+}
+
+@media (max-width: 63.9375em) {
+  .contact__links a.button {
+    margin-bottom: 1.875rem;
+  }
+}
+
+.contact__links a.button:not(:last-child) {
+  margin-right: 100px;
 }
 
 .contact__intro {
