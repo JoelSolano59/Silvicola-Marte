@@ -1,6 +1,15 @@
 .feature {
-  background-color: $lightgrayishBlue;
+  background-image: url("/images/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  min-height: 20rem;
+  min-width: 100%;
+  background-color: $lightGray;
   text-align: center;
+  padding: 3rem;
 
   @include breakpoint-up(medium) {
     text-align: left;
@@ -45,7 +54,7 @@
     font-size: 1.25rem;
     font-weight: 300;
     line-height: 1.15;
-    color: $darkGreen;
+    color: $lightGreen;
     margin-bottom: 1rem;
 
     @include breakpoint-up(large) {
@@ -57,5 +66,6 @@
   &__description {
     font-size: 0.875rem;
     line-height: 1.5;
+    color: $verylightGray;
   }
 }

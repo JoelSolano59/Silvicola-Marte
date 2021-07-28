@@ -76,6 +76,9 @@ html {
   font-size: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background: white;
+  background: -webkit-gradient(linear, left top, right top, from(#e6ffce), to(white));
+  background: linear-gradient(90deg, #e6ffce 0%, white 100%);
 }
 
 *, *::before, *::after {
@@ -237,7 +240,6 @@ button:hover::before, .button:hover::before {
 }
 
 .header {
-  background-color: #f2fce8;
   z-index: 1;
   position: relative;
   top: 0px;
@@ -271,7 +273,6 @@ button:hover::before, .button:hover::before {
 
 .header nav {
   position: relative;
-  background-color: #f2fce8;
   padding-top: 1.0625rem;
   padding-bottom: 1.0625rem;
 }
@@ -375,7 +376,7 @@ button:hover::before, .button:hover::before {
   width: 100%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  color: #f2fce8;
+  color: transparent;
 }
 
 .carousel__prev, .carousel__next {
@@ -442,7 +443,6 @@ button:hover::before, .button:hover::before {
   width: 100%;
   padding: 20px 0 50px 0;
   overflow: hidden;
-  background-color: #f2fce8;
   position: -webkit-sticky;
   position: sticky;
 }
@@ -521,6 +521,7 @@ button:hover::before, .button:hover::before {
   max-height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 2.5%;
 }
 
 .carousel__body .carousel__slider__item .item__3d-frame__box--right, .carousel__body .carousel__slider__item .item__3d-frame__box--left {
@@ -554,6 +555,12 @@ button:hover::before, .button:hover::before {
   width: 100%;
   height: 40rem;
   display: inline-block;
+  background-image: -webkit-gradient(linear, right top, left top, from(transparent), to(white));
+  background-image: linear-gradient(to left, transparent, white);
+}
+
+.test {
+  z-index: -1;
 }
 
 #slideshow1 {
@@ -562,6 +569,12 @@ button:hover::before, .button:hover::before {
   width: 100%;
   height: 40rem;
   display: inline-block;
+  background-image: -webkit-gradient(linear, right top, left top, from(transparent), to(#e6ffce));
+  background-image: linear-gradient(to left, transparent, #e6ffce);
+}
+
+.test {
+  z-index: -1;
 }
 
 #slideshow2 {
@@ -570,6 +583,9 @@ button:hover::before, .button:hover::before {
   width: 100%;
   height: 40rem;
   display: inline-block;
+  border-radius: 16px;
+  background-image: -webkit-gradient(linear, left top, right top, from(transparent), to(white));
+  background-image: linear-gradient(to right, transparent, white);
 }
 
 #slideshow3 {
@@ -578,6 +594,9 @@ button:hover::before, .button:hover::before {
   width: 100%;
   height: 40rem;
   display: inline-block;
+  border-radius: 16px;
+  background-image: -webkit-gradient(linear, left top, right top, from(transparent), to(#e6ffce));
+  background-image: linear-gradient(to right, transparent, #e6ffce);
 }
 
 #slideshow4 {
@@ -586,6 +605,8 @@ button:hover::before, .button:hover::before {
   width: 100%;
   height: 40rem;
   display: inline-block;
+  background-image: -webkit-gradient(linear, right top, left top, from(transparent), to(#e6ffce));
+  background-image: linear-gradient(to left, transparent, #e6ffce);
 }
 
 #slideshow5 {
@@ -594,6 +615,8 @@ button:hover::before, .button:hover::before {
   width: 100%;
   height: 40rem;
   display: inline-block;
+  background-image: -webkit-gradient(linear, right top, left top, from(transparent), to(#e6ffce));
+  background-image: linear-gradient(to left, transparent, #e6ffce);
 }
 
 #slideshow6 {
@@ -602,6 +625,8 @@ button:hover::before, .button:hover::before {
   width: 100%;
   height: 40rem;
   display: inline-block;
+  background-image: -webkit-gradient(linear, right top, left top, from(transparent), to(#e6ffce));
+  background-image: linear-gradient(to left, transparent, #e6ffce);
 }
 
 #slideshow7 {
@@ -610,6 +635,8 @@ button:hover::before, .button:hover::before {
   width: 100%;
   height: 40rem;
   display: inline-block;
+  background-image: -webkit-gradient(linear, right top, left top, from(transparent), to(#e6ffce));
+  background-image: linear-gradient(to left, transparent, #e6ffce);
 }
 
 #slideshow9 {
@@ -618,83 +645,94 @@ button:hover::before, .button:hover::before {
   width: 100%;
   height: 40rem;
   display: inline-block;
+  background-image: -webkit-gradient(linear, right top, left top, from(transparent), to(#e6ffce));
+  background-image: linear-gradient(to left, transparent, #e6ffce);
 }
 
 #slideshow > div {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
+  top: 0.10px;
+  left: 0.10px;
+  right: 0.10px;
+  bottom: 0.10px;
 }
 
 #slideshow1 > div {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
+  top: 0.10px;
+  left: 0.10px;
+  right: 0.10px;
+  bottom: 0.10px;
 }
 
 #slideshow2 > div {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
+  top: 0.10px;
+  left: 0.10px;
+  right: 0.10px;
+  bottom: 0.10px;
 }
 
 #slideshow3 > div {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
+  top: 0.10px;
+  left: 0.10px;
+  right: 0.10px;
+  bottom: 0.10px;
 }
 
 #slideshow4 > div {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
+  top: 0.10px;
+  left: 0.10px;
+  right: 0.10px;
+  bottom: 0.10px;
 }
 
 #slideshow5 > div {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
+  top: 0.10px;
+  left: 0.10px;
+  right: 0.10px;
+  bottom: 0.10px;
 }
 
 #slideshow6 > div {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
+  top: 0.10px;
+  left: 0.10px;
+  right: 0.10px;
+  bottom: 0.10px;
 }
 
 #slideshow7 > div {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
+  top: 0.10px;
+  left: 0.10px;
+  right: 0.10px;
+  bottom: 0.10px;
 }
 
 #slideshow9 > div {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
+  top: 0.10px;
+  left: 0.10px;
+  right: 0.10px;
+  bottom: 0.10px;
 }
 
 .feature {
-  background-color: #f3f4f6;
+  background-image: url("/images/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  min-height: 20rem;
+  min-width: 100%;
+  background-color: #333333;
   text-align: center;
+  padding: 3rem;
 }
 
 @media (min-width: 40em) {
@@ -757,7 +795,7 @@ button:hover::before, .button:hover::before {
   font-size: 1.25rem;
   font-weight: 300;
   line-height: 1.15;
-  color: #2a5e08;
+  color: #64a43d;
   margin-bottom: 1rem;
 }
 
@@ -771,6 +809,7 @@ button:hover::before, .button:hover::before {
 .feature__description {
   font-size: 0.875rem;
   line-height: 1.5;
+  color: #bfbfbf;
 }
 
 .row {
@@ -790,6 +829,7 @@ button:hover::before, .button:hover::before {
   max-height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 2.5%;
 }
 
 .test {
@@ -917,13 +957,14 @@ button:hover::before, .button:hover::before {
   background-image: url("/images/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: fill;
+  background-size: cover;
   height: 100%;
   width: 100%;
-  min-height: 100%;
+  min-height: 20rem;
   min-width: 100%;
   background-color: #333333;
   text-align: center;
+  padding: 3rem;
 }
 
 @media (min-width: 40em) {
@@ -932,27 +973,109 @@ button:hover::before, .button:hover::before {
   }
 }
 
-@media (min-width: 64em) {
-  .contact__links {
-    grid-area: cta;
-    text-align: right;
-    -ms-grid-column-align: end;
-        justify-self: end;
+@media (min-width: 1200px) {
+  .contact .container, .contact .container-lg, .contact .container-md, .contact .container-sm, .contact .container-xl {
+    max-width: 1140px;
   }
 }
 
-@media (max-width: 63.9375em) {
-  .contact__links a.button {
-    margin-bottom: 1.875rem;
+@media (min-width: 992px) {
+  .contact .container, .contact .container-lg, .contact .container-md, .contact .container-sm {
+    max-width: 960px;
   }
 }
 
-.contact__links a.button:not(:last-child) {
-  margin-right: 100px;
+@media (min-width: 768px) {
+  .contact .container, .contact .container-md, .contact .container-sm {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 576px) {
+  .contact .container, .contact .container-sm {
+    max-width: 540px;
+  }
+}
+
+.contact .container, .contact .container-fluid, .contact .container-lg, .contact .container-md, .contact .container-sm, .contact .container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contact .row {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+@media (min-width: 992px) {
+  .contact .col-lg-4 {
+    -ms-flex: 0 0 33.33333%;
+    -webkit-box-flex: 0;
+            flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+  }
+}
+
+.contact .features-icons .features-icons-item {
+  max-width: 20rem;
+}
+
+@media (min-width: 992px) {
+  .contact .mb-lg-3, .contact .my-lg-3 {
+    margin-bottom: 1rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact .mb-lg-0, .contact .my-lg-0 {
+    margin-bottom: 0 !important;
+  }
+}
+
+.contact .ml-auto, .contact .mx-auto {
+  margin-left: auto !important;
+}
+
+.contact .mr-auto, .contact .mx-auto {
+  margin-right: auto !important;
+}
+
+.contact .mb-5, .contact .my-5 {
+  margin-bottom: 3rem !important;
+}
+
+.contact .features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+
+.contact .d-flex {
+  display: -ms-flexbox !important;
+  display: -webkit-box !important;
+  display: flex !important;
+}
+
+.contact .features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+}
+
+.contact .text-primary {
+  color: #007bff !important;
+}
+
+.contact .m-auto {
+  margin: auto !important;
 }
 
 .contact__intro {
-  color: white;
+  color: #64a43d;
   margin-bottom: 3.75rem;
   text-align: center;
 }
@@ -1111,14 +1234,14 @@ button:hover::before, .button:hover::before {
   }
 }
 
-.fab {
+.fab, .fas {
   font-size: 1.25rem;
   color: white;
   -webkit-transition: color 150ms ease-in-out;
   transition: color 150ms ease-in-out;
 }
 
-.fab:hover {
+.fab:hover, .fas:hover {
   color: #64a43d;
 }
 /*# sourceMappingURL=style.css.map */
