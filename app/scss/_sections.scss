@@ -41,6 +41,8 @@
   .order-lg-2 {
     -ms-flex-order: 2;
     order: 2;
+  }
+  .text-order {
     flex: 0 0 40%;
     max-width: 40%;
   }
@@ -70,6 +72,9 @@
   .order-lg-2 {
     text-align: center;
   }
+  .order-lg-1 {
+    text-align: center;
+  }
 }
 
 @media (min-width: 992px) {
@@ -79,4 +84,3 @@
     max-width: 60%;
   }
 }
-

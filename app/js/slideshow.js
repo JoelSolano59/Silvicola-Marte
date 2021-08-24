@@ -15,7 +15,7 @@ setInterval(function() {
     .fadeIn(1000)
     .end()
     .appendTo('#slideshow');
-}, 3000);
+}, 10000);
 
 setInterval(function() {
   $('#slideshow1 > div:first')
@@ -24,7 +24,7 @@ setInterval(function() {
     .fadeIn(1000)
     .end()
     .appendTo('#slideshow1');
-}, 3000);
+}, 10000);
 
 setInterval(function() {
   $('#slideshow2 > div:first')
@@ -33,7 +33,7 @@ setInterval(function() {
     .fadeIn(1000)
     .end()
     .appendTo('#slideshow2');
-}, 3000);
+}, 10000);
 
 setInterval(function() {
   $('#slideshow3 > div:first')
@@ -42,7 +42,7 @@ setInterval(function() {
     .fadeIn(1000)
     .end()
     .appendTo('#slideshow3');
-}, 3000);
+}, 10000);
 
 setInterval(function() {
   $('#slideshow4 > div:first')
@@ -51,7 +51,7 @@ setInterval(function() {
     .fadeIn(1000)
     .end()
     .appendTo('#slideshow4');
-}, 3000);
+}, 10000);
 
 setInterval(function() {
   $('#slideshow5 > div:first')
@@ -60,7 +60,7 @@ setInterval(function() {
     .fadeIn(1000)
     .end()
     .appendTo('#slideshow5');
-}, 3000);
+}, 10000);
 
 setInterval(function() {
   $('#slideshow6 > div:first')
@@ -69,7 +69,7 @@ setInterval(function() {
     .fadeIn(1000)
     .end()
     .appendTo('#slideshow6');
-}, 3000);
+}, 10000);
 
 setInterval(function() {
   $('#slideshow7 > div:first')
@@ -78,7 +78,7 @@ setInterval(function() {
     .fadeIn(1000)
     .end()
     .appendTo('#slideshow7');
-}, 3000);
+}, 10000);
 
 setInterval(function() {
   $('#slideshow9 > div:first')
@@ -87,4 +87,4 @@ setInterval(function() {
     .fadeIn(1000)
     .end()
     .appendTo('#slideshow9');
-}, 3000);
+}, 10000);

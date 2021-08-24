@@ -2,11 +2,11 @@
   margin: 80px auto;
   position: relative;
   width: 100%;
-  height: 40rem;
+  height: 35rem;
   // padding: 0.10px;
   // box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   display:inline-block;
-  background-image: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 30%);
+  background-image: linear-gradient(90deg, rgba(230,255,206,1) 0%, rgba(255,255,255,0) 30%);
   @include breakpoint-down(medium) {
     height: 20rem;
     background-image: none;
@@ -22,9 +22,9 @@
   margin: 80px auto;
   position: relative;
   width: 100%;
-  height: 40rem;
+  height: 35rem;
   display:inline-block;
-  background-image: linear-gradient(90deg, rgba(230,255,206,1) 0%, rgba(255,255,255,0) 30%);
+  background-image: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 30%);
   @include breakpoint-down(medium) {
     height: 20rem;
     background-image: none;
@@ -36,12 +36,12 @@
   margin: 80px auto;
   position: relative;
   width: 100%;
-  height: 40rem;
+  height: 35rem;
   // padding: 0.10px;
   // box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   display:inline-block;
   border-radius: 16px;
-  background-image: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 30%);
+  background-image: linear-gradient(90deg, rgba(230,255,206,1) 0%, rgba(255,255,255,0) 30%);
   @include breakpoint-down(medium) {
     height: 20rem;
     background-image: none;
@@ -53,13 +53,13 @@
   margin: 80px auto;
   position: relative;
   width: 100%;
-  height: 40rem;
+  height: 35rem;
   // padding: 0.10px;
   // box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   display:inline-block;
   border-radius: 16px;
-  background-image: linear-gradient(270deg, rgba(230,255,206,1) 0%, rgba(255,255,255,0) 30%);
-  @include breakpoint-down(medium) {
+  background-image: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 30%);
+    @include breakpoint-down(medium) {
     height: 20rem;
     background-image: none;
     margin: 40px auto;
@@ -70,7 +70,7 @@
   margin: 80px auto;
   position: relative;
   width: 100%;
-  height: 40rem;
+  height: 35rem;
   // padding: 0.10px;
   // box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   display:inline-block;
@@ -86,12 +86,12 @@
   margin: 80px auto;
   position: relative;
   width: 100%;
-  height: 40rem;
+  height: 35rem;
   // padding: 0.10px;
   // box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   display:inline-block;
-  background-image: linear-gradient(90deg, rgba(230,255,206,1) 0%, rgba(255,255,255,0) 30%);
-  @include breakpoint-down(medium) {
+  background-image: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 30%);
+    @include breakpoint-down(medium) {
     height: 20rem;
     background-image: none;
     margin: 40px auto;
@@ -102,7 +102,7 @@
   margin: 80px auto;
   position: relative;
   width: 100%;
-  height: 40rem;
+  height: 35rem;
   // padding: 0.10px;
   // box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   display:inline-block;
@@ -118,12 +118,12 @@
   margin: 80px auto;
   position: relative;
   width: 100%;
-  height: 40rem;
+  height: 35rem;
   // padding: 0.10px;
   // box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   display:inline-block;
-  background-image: linear-gradient(90deg, rgba(230,255,206,1) 0%, rgba(255,255,255,0) 30%);
-  @include breakpoint-down(medium) {
+  background-image: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 30%);
+    @include breakpoint-down(medium) {
     height: 20rem;
     background-image: none;
     margin: 40px auto;
@@ -134,7 +134,7 @@
   margin: 80px auto;
   position: relative;
   width: 100%;
-  height: 40rem;
+  height: 35rem;
   // padding: 0.10px;
   // box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   display:inline-block;
