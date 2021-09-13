@@ -2,7 +2,11 @@ html {
   font-size: 100%;
   box-sizing: border-box;
   background: $white;
-  background: linear-gradient(90deg, rgba(230,255,206,1) 0%, rgba(255,255,255,1) 100%);  
+  background: linear-gradient(90deg, rgba(230,255,206,1) 0%, rgba(255,255,255,1) 100%);
+  overflow-x: hidden;
+  &.nonscroll {
+    overflow: hidden;
+  }
 }
 
 *, *::before, *::after {
@@ -13,7 +17,8 @@ body {
   margin: 0;
 	padding: 0;
   font-family: "Public Sans", sans-serif;
-  font-size: 1.125rem;
+  //font-size: 1.125rem;
+  font-size: 1.25rem;
   font-weight: 300;
   color: $grayishBlue;
 	line-height: 1.3;
@@ -141,3 +146,14 @@ button, .button {
     display: none;
   }
 }
+
+::-moz-selection { /* Code for Firefox */
+  color: $darkGreen;
+  background: $lightGreen;
+}
+
+::selection {
+  color: $darkGreen;
+  background: $lightGreen;
+}
+

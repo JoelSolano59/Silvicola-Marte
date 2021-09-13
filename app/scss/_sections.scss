@@ -5,6 +5,8 @@
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  text-align: justify;
+  text-justify: inter-word;
 
   img {
     width: 100%;
@@ -34,15 +36,17 @@
 }
 
 .p-5 {
-  padding: 5rem !important;
+  padding: 3rem !important;
 }
 
 @media (min-width: 992px) {
   .order-lg-2 {
     -ms-flex-order: 2;
     order: 2;
-    flex: 0 0 40%;
-    max-width: 40%;
+  }
+  .text-order {
+    flex: 0 0 50%;
+    max-width: 50%;
   }
 }
 
@@ -70,13 +74,15 @@
   .order-lg-2 {
     text-align: center;
   }
+  .order-lg-1 {
+    text-align: center;
+  }
 }
 
 @media (min-width: 992px) {
   .col-lg-6 {
     -ms-flex: 0 0 50%;
-    flex: 0 0 60%;
-    max-width: 60%;
+    flex: 0 0 50%;
+    max-width: 50%;
   }
 }
-

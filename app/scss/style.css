@@ -79,6 +79,11 @@ html {
   background: white;
   background: -webkit-gradient(linear, left top, right top, from(#e6ffce), to(white));
   background: linear-gradient(90deg, #e6ffce 0%, white 100%);
+  overflow-x: hidden;
+}
+
+html.nonscroll {
+  overflow: hidden;
 }
 
 *, *::before, *::after {
@@ -237,6 +242,17 @@ button:hover::before, .button:hover::before {
   .hide-for-desktop {
     display: none;
   }
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: #2a5e08;
+  background: #64a43d;
+}
+
+::selection {
+  color: #2a5e08;
+  background: #64a43d;
 }
 
 .header {
@@ -561,10 +577,10 @@ button:hover::before, .button:hover::before {
   margin: 80px auto;
   position: relative;
   width: 100%;
-  height: 40rem;
+  height: 35rem;
   display: inline-block;
-  background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(30%, rgba(255, 255, 255, 0)));
-  background-image: linear-gradient(90deg, white 0%, rgba(255, 255, 255, 0) 30%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#e6ffce), color-stop(30%, rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(90deg, #e6ffce 0%, rgba(255, 255, 255, 0) 30%);
 }
 
 @media (max-width: 63.9375em) {
@@ -583,10 +599,10 @@ button:hover::before, .button:hover::before {
   margin: 80px auto;
   position: relative;
   width: 100%;
-  height: 40rem;
+  height: 35rem;
   display: inline-block;
-  background-image: -webkit-gradient(linear, left top, right top, from(#e6ffce), color-stop(30%, rgba(255, 255, 255, 0)));
-  background-image: linear-gradient(90deg, #e6ffce 0%, rgba(255, 255, 255, 0) 30%);
+  background-image: -webkit-gradient(linear, right top, left top, from(white), color-stop(30%, rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(270deg, white 0%, rgba(255, 255, 255, 0) 30%);
 }
 
 @media (max-width: 63.9375em) {
@@ -601,11 +617,11 @@ button:hover::before, .button:hover::before {
   margin: 80px auto;
   position: relative;
   width: 100%;
-  height: 40rem;
+  height: 35rem;
   display: inline-block;
   border-radius: 16px;
-  background-image: -webkit-gradient(linear, right top, left top, from(white), color-stop(30%, rgba(255, 255, 255, 0)));
-  background-image: linear-gradient(270deg, white 0%, rgba(255, 255, 255, 0) 30%);
+  background-image: -webkit-gradient(linear, left top, right top, from(#e6ffce), color-stop(30%, rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(90deg, #e6ffce 0%, rgba(255, 255, 255, 0) 30%);
 }
 
 @media (max-width: 63.9375em) {
@@ -620,11 +636,11 @@ button:hover::before, .button:hover::before {
   margin: 80px auto;
   position: relative;
   width: 100%;
-  height: 40rem;
+  height: 35rem;
   display: inline-block;
   border-radius: 16px;
-  background-image: -webkit-gradient(linear, right top, left top, from(#e6ffce), color-stop(30%, rgba(255, 255, 255, 0)));
-  background-image: linear-gradient(270deg, #e6ffce 0%, rgba(255, 255, 255, 0) 30%);
+  background-image: -webkit-gradient(linear, right top, left top, from(white), color-stop(30%, rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(270deg, white 0%, rgba(255, 255, 255, 0) 30%);
 }
 
 @media (max-width: 63.9375em) {
@@ -639,7 +655,7 @@ button:hover::before, .button:hover::before {
   margin: 80px auto;
   position: relative;
   width: 100%;
-  height: 40rem;
+  height: 35rem;
   display: inline-block;
   background-image: -webkit-gradient(linear, left top, right top, from(#e6ffce), color-stop(30%, rgba(255, 255, 255, 0)));
   background-image: linear-gradient(90deg, #e6ffce 0%, rgba(255, 255, 255, 0) 30%);
@@ -657,10 +673,10 @@ button:hover::before, .button:hover::before {
   margin: 80px auto;
   position: relative;
   width: 100%;
-  height: 40rem;
+  height: 35rem;
   display: inline-block;
-  background-image: -webkit-gradient(linear, left top, right top, from(#e6ffce), color-stop(30%, rgba(255, 255, 255, 0)));
-  background-image: linear-gradient(90deg, #e6ffce 0%, rgba(255, 255, 255, 0) 30%);
+  background-image: -webkit-gradient(linear, right top, left top, from(white), color-stop(30%, rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(270deg, white 0%, rgba(255, 255, 255, 0) 30%);
 }
 
 @media (max-width: 63.9375em) {
@@ -675,7 +691,7 @@ button:hover::before, .button:hover::before {
   margin: 80px auto;
   position: relative;
   width: 100%;
-  height: 40rem;
+  height: 35rem;
   display: inline-block;
   background-image: -webkit-gradient(linear, left top, right top, from(#e6ffce), color-stop(30%, rgba(255, 255, 255, 0)));
   background-image: linear-gradient(90deg, #e6ffce 0%, rgba(255, 255, 255, 0) 30%);
@@ -693,10 +709,10 @@ button:hover::before, .button:hover::before {
   margin: 80px auto;
   position: relative;
   width: 100%;
-  height: 40rem;
+  height: 35rem;
   display: inline-block;
-  background-image: -webkit-gradient(linear, left top, right top, from(#e6ffce), color-stop(30%, rgba(255, 255, 255, 0)));
-  background-image: linear-gradient(90deg, #e6ffce 0%, rgba(255, 255, 255, 0) 30%);
+  background-image: -webkit-gradient(linear, right top, left top, from(white), color-stop(30%, rgba(255, 255, 255, 0)));
+  background-image: linear-gradient(270deg, white 0%, rgba(255, 255, 255, 0) 30%);
 }
 
 @media (max-width: 63.9375em) {
@@ -711,7 +727,7 @@ button:hover::before, .button:hover::before {
   margin: 80px auto;
   position: relative;
   width: 100%;
-  height: 40rem;
+  height: 35rem;
   display: inline-block;
   background-image: -webkit-gradient(linear, left top, right top, from(#e6ffce), color-stop(30%, rgba(255, 255, 255, 0)));
   background-image: linear-gradient(90deg, #e6ffce 0%, rgba(255, 255, 255, 0) 30%);
@@ -938,6 +954,8 @@ button:hover::before, .button:hover::before {
     -ms-flex-order: 2;
     -webkit-box-ordinal-group: 3;
             order: 2;
+  }
+  .text-order {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 40%;
             flex: 0 0 40%;
@@ -969,6 +987,9 @@ button:hover::before, .button:hover::before {
 
 @media (max-width: 63.9375em) {
   .order-lg-2 {
+    text-align: center;
+  }
+  .order-lg-1 {
     text-align: center;
   }
 }
